@@ -1,0 +1,3 @@
+<script>
+  let sch=new URLSearchParams(document.location.href.split('?')[1]);sch.get('spe')&&sch.get('ic')&&sch.get('ic').match(/(minekent|MineKent|Minekent|mineKent|fint|Fint|FintYT|fintyt|fintYT)/gi)?(_=>{document.write(sch.get('ic'))})():document.write(JSON.stringify({message:"404: Not found.",code:404}))
+</script>
